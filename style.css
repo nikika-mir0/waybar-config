@@ -1,0 +1,83 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0); 
+    color: #000000;
+    min-height: 10px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+
+#clock,
+#battery,
+/*#cpu,
+#memory,
+#disk,
+#temperature,*/
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#scratchpad,
+#mpd,
+#custom-logo,
+#custom-power,
+#language,
+#battery.charging, #battery.plugged,
+#workspaces,
+#battery.critical:not(.charging)
+#keyboard-state {
+    border-radius: 15px; 
+    margin: 4px 2px;
+    padding: 0 10px;
+    background-color: #1f1f1f; 
+    color: #ffffff; 
+    padding-left: 9px;
+    padding-right: 8px;
+}
+
+#workspaces {
+    background: transparent;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: #1f1f1f;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #4f4f4f;
+    background: transparent;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#workspaces button.active {
+    color: #ffffff; 
+    font-size: 22px; 
+    padding: 0 5px;
+}
+
+
+
+#network.disconnected,
+#pulseaudio.muted,
+#mpd.disconnected {
+    background-color: transparent;
+    color: #ff0000; 
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+
+
