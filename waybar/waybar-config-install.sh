@@ -19,7 +19,7 @@ if [ -f "config.jsonc" ]; then
   echo "config.jsonc installed successfully!"
 fi
 
-if [-f "style.css" ]; then
+if [ -f "style.css" ]; then
   cp style.css "$TARGET_DIR/style.css"
   echo "style.css installed successfully!"
 fi
