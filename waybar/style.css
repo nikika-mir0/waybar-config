@@ -27,6 +27,8 @@ window#waybar {
 #tray,
 #mode,
 #scratchpad,
+#network.disconnected,
+#pulseaudio.muted,
 #mpd,
 #custom-logo,
 #custom-power,
@@ -66,10 +68,6 @@ window#waybar {
     padding: 0 5px;
 }
 
-
-
-#network.disconnected,
-#pulseaudio.muted,
 #mpd.disconnected {
     background-color: transparent;
     color: #ff0000; 
